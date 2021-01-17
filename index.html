@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <!-- This is the title which appears in the tab at the top of the browser -->
+  <title>Note Me</title>
+  <!-- This is the description of your page which will be used for search indexing -->
+  <meta name="description" content="Boilerplate for CodeLouisville Javascript Track">
+  <!-- This is the viewport your website supports, and how it responds to zoomings -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- These are imports for stylesheets to change the appearance of the site -->
+  <link rel="stylesheet" href="src/assets/css/normalize.css">
+  <link rel="stylesheet" href="src/assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Red+Hat+Display:wght@400;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <h1>Welcome to Note Me!</h1>
+    <p>Enter your notes below and click finished to erase all notes. No information is saved onto the site or any servers. This is to be used for non-commercial use only.</p>
+    <form id="myForm">
+    <h2>Client Name: </h2>
+    <input type="text" class="text-box" name="client-name" placeholder="Enter client name.">
+    <h2>Call Back Number:</h2>
+    <input type="text" class="text-box" name="call-back-number" placeholder="Enter call back number.">
+    <h2>Call Notes:</h2>
+    <textarea class="text-box" name="call-notes" rows="10" cols="50" placeholder="Enter call notes here."></textarea>
+    <br>
+    <button class="clear-button" onclick="clear()">Clear</button>
+    </form>
+  <!-- This is the main JavaScript file which executes logic for your site -->
+  <script src="src/main.js"></script>
+</body>
+
+</html>

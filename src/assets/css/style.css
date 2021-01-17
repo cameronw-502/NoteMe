@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    background-color: black;
+    color:white;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+h2 {
+   margin-top: 10%;
+    margin-bottom:1%;
+    font-size: 35px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+button {
+    background-color: green;
+    margin-top: 15%;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 250%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.text-box{
+    background-color:white;
+    color:black;
+    font-size:25px;
+    font-family: 'Red Hat Display', sans-serif;    
+}
+input{
+    height: 50px;
+}
+
+textbox {
+    height: 25px;
+}
+form {
+  text-align:center;
+}
+
+
+@media screen and (min-width: 1080px) {
+    .text-box{
+        width: 75%;
+    }
+    
+    h2 {
+        margin-top: 5%;
+    }
+    
+    button{
+        margin-top:5%;
+    }
+}
